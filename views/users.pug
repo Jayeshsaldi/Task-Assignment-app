@@ -1,0 +1,17 @@
+html
+  head
+    style
+      include user.css
+    title= title
+  body
+  div(class="container")
+  <center><div class='well'><b>Tasks Details</b></center>
+  table(class='table table-striped')
+    thead
+      tr
+        th Task name
+        th Assigned To
+    each item in items
+      tr
+        td= item.TaskName
+        td= item.AssignedTo

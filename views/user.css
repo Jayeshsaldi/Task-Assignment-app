@@ -1,0 +1,21 @@
+table {
+  border: 1px solid #ddd;
+  text-align: left;
+  border-collapse: collapse;
+  width: 50%;
+}
+td{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+    }
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+    }
+.table-data{
+    position: relative;
+    left:150px;
+    top:100px;
+    }
